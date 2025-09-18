@@ -64,7 +64,7 @@ class _ArticleDetailsState extends State<ArticleDetails> {
               child: LoadingAnimationWidget.flickr(
                 leftDotColor: Colors.orangeAccent,
                 rightDotColor: Colors.orange.shade700,
-                size: 60,
+                size: 50,
               ),
             ),
         ],

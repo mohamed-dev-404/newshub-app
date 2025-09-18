@@ -11,7 +11,7 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-  double _scale = 1.0;
+  double _scale = .5;
 
   @override
   void initState() {
@@ -20,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
       const Duration(seconds: 1),
       () {
         setState(() {
-          _scale = 2.0;
+          _scale = 1.6;
         });
       },
     );
@@ -42,31 +42,12 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Colors.white,
-              Colors.white,
-              Colors.deepOrangeAccent,
-              Colors.orange,
-            ],
-          ),
-        ),
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              AnimatedScale(
-                duration: Duration(seconds: 3),
-                curve: Curves.bounceOut,
-                scale: _scale,
-                child: Logo(),
-              ),
-            ],
-          ),
+      body: Center(
+        child: AnimatedScale(
+          duration: Duration(seconds: 3),
+          curve: Curves.bounceOut,
+          scale: _scale,
+          child: Logo(),
         ),
       ),
     );

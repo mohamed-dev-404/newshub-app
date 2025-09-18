@@ -43,7 +43,7 @@ class _NewsListBuilderState extends State<NewsListBuilder> {
               child: LoadingAnimationWidget.flickr(
                 leftDotColor: Colors.orangeAccent,
                 rightDotColor: Colors.orange.shade700,
-                size: 60,
+                size: 50,
               ),
             ),
           );
