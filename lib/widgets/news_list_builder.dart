@@ -37,7 +37,8 @@ class _NewsListBuilderState extends State<NewsListBuilder> {
             ),
           );
         } else {
-          return SliverToBoxAdapter(
+          return SliverFillRemaining(
+            hasScrollBody: false,
             child: Center(
               child: LoadingAnimationWidget.flickr(
                 leftDotColor: Colors.orangeAccent,

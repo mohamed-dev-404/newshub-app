@@ -15,15 +15,9 @@ class NewsApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       theme: lightTheme,
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: const SplashScreen(),
     );
   }
 }
 
-//!Required updates :
-/**
- * Applay pagination concept 
- * add more categories (as API can)
- * display each article in details in seperated view (using Web view)
- * revision all project and new widgets and topic
- */
+

@@ -8,7 +8,7 @@ class Logo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 35,
+      height: 36,
       width: 127,
       decoration: BoxDecoration(
         gradient: LinearGradient(

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:news_app/models/article_model.dart';
 import 'package:news_app/pages/article_details.dart';
 
-String _defaultImage = 'https://i.ytimg.com/vi/bqerviYSC4U/maxresdefault.jpg';
+const String _defaultImage = 'https://i.ytimg.com/vi/bqerviYSC4U/maxresdefault.jpg';
 
 class NewsCard extends StatelessWidget {
   const NewsCard({
@@ -19,7 +19,7 @@ class NewsCard extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => ArticleDetails( articleUrl: article.link),
+            builder: (context) => ArticleDetails(articleUrl: article.link),
           ),
         );
       },
@@ -33,15 +33,6 @@ class NewsCard extends StatelessWidget {
               height: 190,
               width: double.infinity,
               fit: BoxFit.cover,
-              errorBuilder: (BuildContext context, Object exception,
-                  StackTrace? stackTrace) {
-                return Image.network(
-                  _defaultImage,
-                  height: 190,
-                  width: double.infinity,
-                  fit: BoxFit.cover,
-                );
-              },
             ),
           ),
           const SizedBox(

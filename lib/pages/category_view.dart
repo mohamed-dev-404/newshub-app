@@ -4,8 +4,8 @@ import 'package:news_app/widgets/logo.dart';
 
 class CategoryView extends StatelessWidget {
   const CategoryView({super.key, required this.category});
-
   final String category;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,7 +14,7 @@ class CategoryView extends StatelessWidget {
         title: Logo(),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(12.0),
+        padding: const EdgeInsets.all(16.0),
         child: CustomScrollView(
           physics: const BouncingScrollPhysics(),
           slivers: [

@@ -25,9 +25,9 @@ class CategoryCard extends StatelessWidget {
       },
       child: Container(
         alignment: Alignment.center,
-        margin: const EdgeInsets.only(right: 14),
+        margin: const EdgeInsets.only(right: 12),
         width: 130,
-        height: 45,
+        height: 40,
         decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topLeft,
@@ -39,7 +39,7 @@ class CategoryCard extends StatelessWidget {
             ],
           ),
           borderRadius: const BorderRadius.all(
-            Radius.circular(30),
+            Radius.circular(16),
           ),
         ),
         child: Text(

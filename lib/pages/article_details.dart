@@ -22,13 +22,11 @@ class _ArticleDetailsState extends State<ArticleDetails> {
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..setNavigationDelegate(
         NavigationDelegate(
-
           // onPageStarted: (String url) {
           //   setState(() {
           //     isLoading = false;
           //   });
           // },
-
           onPageFinished: (String url) {
             setState(() {
               isLoading = false;
@@ -59,7 +57,7 @@ class _ArticleDetailsState extends State<ArticleDetails> {
             controller: _controller,
             layoutDirection: TextDirection.rtl,
           ),
-
+          
           // Loading Indicator
           if (isLoading)
             Center(

@@ -39,7 +39,7 @@ class CategoriesListView extends StatelessWidget {
       name: 'Tourism',
     ),
     Category(
-      name: 'other',
+      name: 'Other',
     ),
   ];
 
