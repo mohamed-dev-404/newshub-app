@@ -34,7 +34,9 @@ This project was built as a **practice app** to explore **API integration, anima
 
 ## 📸 Screenshots  
 
-_soon_  
+<img src="assets/presentation/1.png" width="250">  
+<img src="assets/presentation/2.png" width="250">  
+
 
 ---
 
