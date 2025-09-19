@@ -1,16 +1,56 @@
-# news_app
+# 📰 NewsHub App  
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-Framework-blue)](https://flutter.dev)  
+[![API](https://img.shields.io/badge/API-NewsData.io-orange)](https://newsdata.io/)  
 
-## Getting Started
+**NewsHub** is a Flutter app that displays top and category-based news in **Arabic**, powered by [NewsData.io](https://newsdata.io/api).  
+It features a modern **UI with gradients, splash animations, and smooth scrolling lists**, and lets you read full articles inside the app via **WebView**.  
 
-This project is a starting point for a Flutter application.
+This project was built as a **practice app** to explore **API integration, animations, gradient UI design, and scrollable layouts** in Flutter.  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🌍 Fetches **top news** and **category news**.  
+- 🌐 Supports **Arabic language** articles.  
+- 📖 Read the **full article** inside the app using WebView.  
+- 🎬 **Custom splash screen** with simple animations.  
+- 🔄 **Animated loading indicators** for better UX.  
+- 🎨 Modern **UI with linear gradients**.  
+- 📜 **CustomScrollView** with multiple internal lists.  
+- ⚡ Built with **FutureBuilder** for async API handling.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Flutter (Dart)**  
+- **NewsData.io API** – News source  
+- **WebView** – Article reader  
+- **Animations & Gradients** – Smooth UI/UX  
+
+---
+
+## 📸 Screenshots  
+
+_soon_  
+
+---
+
+## 📚 What I Learned  
+
+Through building **NewsHub**, I practiced and improved:  
+- 🔗 **API integration** with REST services.  
+- ⏳ Using **FutureBuilder** for async data handling.  
+- 📜 Creating **scrollable lists** with **CustomScrollView**.  
+- 🎨 Applying **linear gradients** for modern design.  
+- 🎬 Implementing **basic animations** (splash screen, loaders).  
+
+---
+
+## 📬 Contact  
+
+👤 **Mohammed Ibrahim**  
+- GitHub: [mohamed-dev-404](https://github.com/mohamed-dev-404)  
+- Email: mohammedhamad.dev@gmail.com  
