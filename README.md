@@ -51,6 +51,12 @@ Through building **NewsHub**, I practiced and improved:
 
 ---
 
+## 📥 Download  
+
+[Download APK](https://drive.google.com/drive/folders/1RlEQ48UuOLgoSD1WPR0K3hHwNgVqxZZc?usp=sharing)
+
+---
+
 ## 📬 Contact  
 
 👤 **Mohammed Ibrahim**  
