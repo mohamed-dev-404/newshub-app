@@ -10,6 +10,17 @@ This project was built as a **practice app** to explore **API integration, anima
 
 ---
 
+## 📑 Table of Contents  
+- [Features](#-features)  
+- [Tech Stack](#-tech-stack)  
+- [Presentation](#-presentation)  
+- [Demo](#-demo)  
+- [Download](#-download)  
+- [What I Learned](#-what-i-learned)  
+- [Contact](#-contact)  
+
+---
+
 ## ✨ Features  
 
 - 🌍 Fetches **top news** and **category news**.  
@@ -32,11 +43,24 @@ This project was built as a **practice app** to explore **API integration, anima
 
 ---
 
-## 📸 Screenshots  
+## 📷 Presentation  
 
-<img src="assets/presentation/1.png" width="250">  
-<img src="assets/presentation/2.png" width="250">  
+<p float="left">
+  <img src="assets/presentation/1.png" width="450">
+  <img src="assets/presentation/2.png" width="450">
+</p>  
 
+---
+
+## 🎥 Demo  
+
+![App Demo](assets/demo/news_hub_demo.gif)  
+
+---
+
+## 📥 Download  
+
+[Download APK](https://drive.google.com/drive/folders/1RlEQ48UuOLgoSD1WPR0K3hHwNgVqxZZc?usp=sharing)  
 
 ---
 
@@ -48,12 +72,6 @@ Through building **NewsHub**, I practiced and improved:
 - 📜 Creating **scrollable lists** with **CustomScrollView**.  
 - 🎨 Applying **linear gradients** for modern design.  
 - 🎬 Implementing **basic animations** (splash screen, loaders).  
-
----
-
-## 📥 Download  
-
-[Download APK](https://drive.google.com/drive/folders/1RlEQ48UuOLgoSD1WPR0K3hHwNgVqxZZc?usp=sharing)
 
 ---
 
