@@ -11,7 +11,7 @@ class CategoryView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Logo(),
+        title: const Logo(),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

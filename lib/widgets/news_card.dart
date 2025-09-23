@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:news_app/models/article_model.dart';
 import 'package:news_app/pages/article_details.dart';
 
-const String _defaultImage = 'https://i.ytimg.com/vi/bqerviYSC4U/maxresdefault.jpg';
+const String _defaultImage =
+    'https://i.ytimg.com/vi/bqerviYSC4U/maxresdefault.jpg';
 
 class NewsCard extends StatelessWidget {
   const NewsCard({

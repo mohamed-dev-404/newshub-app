@@ -19,5 +19,3 @@ class NewsApp extends StatelessWidget {
     );
   }
 }
-
-

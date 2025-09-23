@@ -44,10 +44,10 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       body: Center(
         child: AnimatedScale(
-          duration: Duration(seconds: 3),
+          duration: const Duration(seconds: 3),
           curve: Curves.bounceOut,
           scale: _scale,
-          child: Logo(),
+          child: const Logo(),
         ),
       ),
     );

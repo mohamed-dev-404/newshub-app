@@ -10,7 +10,7 @@ class Logo extends StatelessWidget {
     return Container(
       height: 36,
       width: 127,
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         gradient: LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,

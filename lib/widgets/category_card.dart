@@ -28,17 +28,17 @@ class CategoryCard extends StatelessWidget {
         margin: const EdgeInsets.only(right: 12),
         width: 130,
         height: 40,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: const [
+            colors: [
               Colors.orange,
               Colors.orangeAccent,
               Colors.deepOrange,
             ],
           ),
-          borderRadius: const BorderRadius.all(
+          borderRadius: BorderRadius.all(
             Radius.circular(16),
           ),
         ),

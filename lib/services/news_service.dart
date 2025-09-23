@@ -26,5 +26,4 @@ class NewsService {
       return [];
     }
   } //getNewsByCategory
-  
 } //NewseService class

@@ -48,7 +48,7 @@ class _ArticleDetailsState extends State<ArticleDetails> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Logo(),
+        title: const Logo(),
       ),
       body: Stack(
         children: [
@@ -57,7 +57,7 @@ class _ArticleDetailsState extends State<ArticleDetails> {
             controller: _controller,
             layoutDirection: TextDirection.rtl,
           ),
-          
+
           // Loading Indicator
           if (isLoading)
             Center(
