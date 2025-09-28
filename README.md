@@ -2,6 +2,7 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-Framework-blue)](https://flutter.dev)  
 [![API](https://img.shields.io/badge/API-NewsData.io-orange)](https://newsdata.io/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) 
 
 **NewsHub** is a Flutter app that displays top and category-based news in **Arabic**, powered by [NewsData.io](https://newsdata.io/api).  
 It features a modern **UI with gradients, splash animations, and smooth scrolling lists**, and lets you read full articles inside the app via **WebView**.  
@@ -75,8 +76,27 @@ Through building **NewsHub**, I practiced and improved:
 
 ---
 
+## 🤝 Contributing  
+
+Contributions are welcome!  
+- Fork the repository  
+- Create a feature branch  
+- Submit a pull request 🚀
+
+---
+
 ## 📬 Contact  
 
 👤 **Mohammed Ibrahim**  
 - GitHub: [mohamed-dev-404](https://github.com/mohamed-dev-404)  
-- Email: mohammedhamad.dev@gmail.com  
+- Email: mohammedhamad.dev@gmail.com
+
+---
+
+## 📜 License  
+
+This project is licensed under the [MIT License](LICENSE).  
+
+---
+
+**Feel free to ⭐ the repo and follow for more Flutter projects.** 
