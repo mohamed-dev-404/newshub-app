@@ -1,8 +1,12 @@
 # 📰 NewsHub App  
 
 [![Flutter](https://img.shields.io/badge/Flutter-Framework-blue)](https://flutter.dev)  
-[![API](https://img.shields.io/badge/API-NewsData.io-orange)](https://newsdata.io/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) 
+[![API](https://img.shields.io/badge/API-NewsData.io-orange)](https://newsdata.io/)
+[![Dart](https://img.shields.io/badge/Dart-Language-0175C2?logo=dart)](https://dart.dev/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/mohamed-dev-404/newshub-app/pulls) 
+![GitHub Repo stars](https://img.shields.io/github/stars/mohamed-dev-404/newshub-app?style=social)  
+
 
 **NewsHub** is a Flutter app that displays top and category-based news in **Arabic**, powered by [NewsData.io](https://newsdata.io/api).  
 It features a modern **UI with gradients, splash animations, and smooth scrolling lists**, and lets you read full articles inside the app via **WebView**.  
